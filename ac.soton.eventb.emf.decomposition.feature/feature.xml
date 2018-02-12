@@ -2,7 +2,7 @@
 <feature
       id="ac.soton.eventb.emf.decomposition"
       label="%featureName"
-      version="0.1.0.released"
+      version="0.1.0.qualifier"
       provider-name="%featureVendor"
       license-feature="org.rodinp.license"
       license-feature-version="1.0.0.release">
