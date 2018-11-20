@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="ac.soton.eventb.emf.inclusion.sdk"
+      id="ac.soton.eventb.emf.decomposition.sdk"
       label="%featureName"
-      version="1.0.0.qualifier"
+      version="0.1.0.qualifier"
       provider-name="%featureVendor"
       license-feature="org.rodinp.license"
       license-feature-version="1.0.0.release">
@@ -20,19 +20,11 @@
    </url>
 
    <includes
-         id="ac.soton.eventb.emf.inclusion.feature"
+         id="ac.soton.eventb.emf.decomposition.feature"
          version="0.0.0"/>
 
    <includes
-         id="ac.soton.eventb.emf.inclusion.source.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="ac.soton.eventb.emf.inclusion.tests.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="ac.soton.eventb.emf.inclusion.tests.source.feature"
+         id="ac.soton.eventb.emf.decomposition.source.feature"
          version="0.0.0"/>
 
 </feature>
