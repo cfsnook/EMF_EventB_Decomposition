@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %pluginName
+Bundle-SymbolicName: ac.soton.eventb.emf.decomposition.branding
+Bundle-Version: 0.0.1.qualifier
+Bundle-Vendor: %providerName
+Bundle-Localization: plugin
+Automatic-Module-Name: ac.soton.eventb.emf.decomposition.branding
