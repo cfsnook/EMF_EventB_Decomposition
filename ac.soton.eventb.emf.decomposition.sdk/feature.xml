@@ -22,9 +22,40 @@
    <includes
          id="ac.soton.eventb.emf.decomposition.feature"
          version="0.0.0"/>
+         
+   <plugin
+         id="ac.soton.eventb.emf.decomposition.source"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+ 
+   <plugin
+         id="ac.soton.eventb.emf.decomposition.edit.source"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>    
+  
+   <plugin
+         id="ac.soton.eventb.emf.decomposition.generator.source"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>       
 
-   <includes
-         id="ac.soton.eventb.emf.decomposition.source.feature"
-         version="0.0.0"/>
+   <plugin
+         id="ac.soton.eventb.emf.decomposition.navigator.source"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>       
+
+   <plugin
+         id="ac.soton.eventb.emf.decomposition.branding.source"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
 
 </feature>
