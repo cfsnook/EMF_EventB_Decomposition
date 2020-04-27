@@ -37,11 +37,12 @@
       <import plugin="ch.ethz.eventb.utils" version="0.2.3" match="compatible"/>
       <import plugin="org.eventb.core.ast" version="3.2.0" match="compatible"/>
       <import plugin="org.rodinp.core" version="1.7.0" match="compatible"/>
+      <import plugin="ac.soton.eventb.emf.inclusion" version="2.0.0" match="compatible"/>
       <import plugin="ac.soton.emf.translator.eventb" version="0.0.1" match="compatible"/>
       <import plugin="org.eclipse.emf.transaction" version="1.9.0" match="compatible"/>
       <import plugin="org.eclipse.emf.workspace" version="1.5.1" match="compatible"/>
       <import plugin="org.eclipse.core.expressions" version="3.5.0" match="compatible"/>
-      <import plugin="ac.soton.eventb.emf.inclusion" version="2.0.0" match="compatible"/>
+      <import plugin="ac.soton.eventb.emf.core.extension.persistence" version="2.2.0" match="compatible"/>
    </requires>
 
    <plugin
@@ -71,7 +72,7 @@
          install-size="0"
          version="0.0.0"
          unpack="false"/>
-         
+
    <plugin
          id="ac.soton.eventb.emf.decomposition.branding"
          download-size="0"
