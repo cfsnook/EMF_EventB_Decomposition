@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: %pluginName
 Bundle-SymbolicName: ac.soton.eventb.emf.decomposition;singleton:=true
-Bundle-Version: 0.1.0.release
+Bundle-Version: 0.1.1.qualifier
 Bundle-ClassPath: .
 Bundle-Vendor: %providerName
 Bundle-Localization: plugin
@@ -10,8 +10,7 @@ Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Export-Package: ac.soton.eventb.decomposition,
  ac.soton.eventb.decomposition.impl,
  ac.soton.eventb.decomposition.util
-Require-Bundle: org.eclipse.core.runtime;bundle-version="[3.10.0,4.0.0)",
- org.eclipse.emf.ecore;bundle-version="[2.10.2,3.0.0)",
+Require-Bundle: org.eclipse.emf.ecore;bundle-version="[2.10.2,3.0.0)",
  org.eventb.emf.core;bundle-version="[5.0.0,6.0.0)"
 Bundle-ActivationPolicy: lazy
 Automatic-Module-Name: ac.soton.eventb.emf.decomposition
